@@ -587,7 +587,21 @@ margin-top: 160px;
    color: green;
    font-size: 40px;
 }
+
+.cancel .icon {
+  color: red;
+  font-size: 40px;
+}
+
 .success h2{
+  text-transform: capitalize;
+  margin-top: 15px 0px;
+  font-weight: 900;
+  font-size: 40px;
+  color:#324d67;
+}
+
+.cancel h2{
   text-transform: capitalize;
   margin-top: 15px 0px;
   font-weight: 900;
@@ -598,6 +612,12 @@ margin-top: 160px;
    font-size: 16px;
   font-weight: 600;
   text-align: center;
+}
+
+.cancel .email-msg{
+  font-size: 16px;
+ font-weight: 600;
+ text-align: center;
 }
 .cancel p{
   font-size: 20px;
@@ -610,7 +630,19 @@ margin-top: 160px;
   margin: 10px;
   margin-top: 30px;
 }
+.cancel .description{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
 .success .description .email{
+  margin-left: 5px;
+  color: #f02d34;
+}
+
+.cancel .description .email{
   margin-left: 5px;
   color: #f02d34;
 }
