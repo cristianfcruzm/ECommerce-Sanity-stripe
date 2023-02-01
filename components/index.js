@@ -6,3 +6,4 @@ export { default as HeroBanner } from './HeroBanner';
 export { default as FooterBanner } from './FooterBanner';
 export { default as Cart } from './Cart';
 export { default as Button } from './Button';
+export { default as WhatsAppButton } from './WhatsAppButton';

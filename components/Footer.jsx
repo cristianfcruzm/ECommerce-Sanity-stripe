@@ -1,6 +1,8 @@
 import React from 'react';
 import { AiFillInstagram, AiFillLinkedin} from 'react-icons/ai';
 import Link from 'next/link';
+import { Button, WhatsAppButton } from '../components';
+
 
 const Footer = () => {
   return (
@@ -13,9 +15,8 @@ const Footer = () => {
       <Link href={`https://www.linkedin.com/in/cristian-ferney-cruz-moreno-1b813a125/`}>
         <AiFillLinkedin />
       </Link>
-        
-      
       </p>
+      <WhatsAppButton/>
     </div>
   )
 }
