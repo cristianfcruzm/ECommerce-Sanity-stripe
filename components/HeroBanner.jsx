@@ -9,18 +9,24 @@ const HeroBanner = ({heroBanner:{smallText, midText, largeText1, image, product,
   return (
     <div className='hero-banner-container'>
       <div>
+        <div className='left-section'>
         <p className='beats-solo'>{smallText}</p>
         <h3>{midText}</h3>
         <h1>{largeText1}</h1>
-        <img src={urlFor(image)} alt="barriles" className='hero-banner-image' />
         <div>
           <Link href={`/product/${product}`}>
             <button type='button'>{buttonText}</button>
           </Link>
-          <div className='desc'>
-            <h5>Descripción</h5>
+        </div>
+        <div className='middle-section'>
+        <img src={urlFor(image)} alt="barriles" className='hero-banner-image' />
+        </div>
+        <div className='right-section'>
+        <div className='desc'>
+            <h5>Adquiere el tuyo</h5>
             <p>{desc}</p>
           </div>
+        </div>
         </div>
         {/*<Link href='/category/ID'>
         <Button type='button'>Button TEXT personalizado</Button>
